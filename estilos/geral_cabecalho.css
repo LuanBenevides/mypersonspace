@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}/*Resete da página*/
+body{
+    background-color: #132743;
+}
+/*Painel geral*/
+.outset{
+    width: 100%;
+    margin: 0 auto;
+}
+/*Estilização do cabeçalho*/
+.cabecalho{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: #ffffff 3px solid;
+    background-color: #f9e3a2;
+}
+.cabecalho a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #132743;
+    text-emphasis-color: black;
+    margin-left: 10%;
+}
+.cabecalho h3{
+    color: #132743;
+    text-emphasis-color: black;
+}
+.cabecalho button{
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    color: #132743;
+    text-emphasis-color: black;
+    border: solid #132743 1px;
+    transition: 0.5s;
+    margin-right: 10%;
+}
+.cabecalho button:hover{
+    
+    background-color: #132743;
+    color: #ffffff;
+}
+
+/*Adaptação de telas do cabecalho*/
+
+@media(max-width: 600px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        height: 140px;
+    }
+    .cabecalho h3{
+        display: none;
+    }
+    .cabecalho a{
+        font-size: 28px;
+        margin: 10px;
+    }
+    .cabecalho button{
+        width: 140px;
+        height: 40px;
+    }
+}
+
+

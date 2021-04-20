@@ -1,0 +1,16 @@
+/*Estilização do rodapé*/
+.rodape{
+    background-color: #f9e3a2;
+    border-top: solid #ffffff 3px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    margin-bottom: 0px;
+}
+.rodape p{
+    color: #132743;
+    margin: 6px;
+}

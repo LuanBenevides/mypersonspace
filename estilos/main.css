@@ -1,0 +1,6 @@
+/*Folha de importação de todas as folhas de estilo para o a folha de marcação principal*/
+@import url("conteudo.css");
+@import url("geral_cabecalho.css");
+@import url("menu.css");
+@import url("rodape.css");
+@import url("mediaQuerys.css");

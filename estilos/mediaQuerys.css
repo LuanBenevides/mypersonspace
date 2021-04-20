@@ -1,0 +1,108 @@
+/*Estilização até 1250px*/
+@media(max-width: 1250px){
+    .menu{
+        margin-left: 1000px;
+    }
+}
+/*Estilização até 1200px*/
+@media(max-width: 1100px){
+    .menu{
+        margin-left: 810px;
+    }
+}
+/*Estilização para telas até 900px*/
+@media(max-width: 900px){ /*Cabecalho*/
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        height: 140px;
+    }
+    .cabecalho h3{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    .cabecalho a{
+        font-size: 28px;
+        margin: 10px;
+    }
+    .cabecalho button{
+        width: 140px;
+        height: 40px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .menu a{
+        width: 130px;
+    }
+    .bloco_principal{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .bloco_principal_margin{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 800px){
+    .menu a{
+        width: 110px;
+    }
+}
+@media(max-width: 700px){
+    .menu{
+        flex-wrap: nowrap;
+    }
+    .menu a{
+        width: 100px;
+    }
+}
+@media(max-width: 380px){
+    .menu{
+        flex-wrap: wrap;
+    }
+    .bloco_principal{
+        width: 100%;
+        margin: 0px;
+        border-top: solid 3px #132743;
+    }
+    .bloco_principal h3{
+        text-align: center;
+    }
+    .bloco_principal p{
+        text-align: justify;
+        margin: 0px;
+        padding: 0px;
+        text-indent: 10px;
+    }
+    .bloco_principal_margin{
+        width: 100%;
+        margin: 0px;
+        border-top: solid 3px #f9e3a2;
+    }
+    .bloco_principal_margin h3{
+        text-align: center;
+    }
+    .bloco_principal_margin p{
+        text-align: justify;
+        margin: 0px;
+        padding: 0px;
+        text-indent: 10px;
+    }
+    .rodape{
+        width: 100%;
+    }
+    .rodape p{
+        text-align: center;
+        padding: 0px;
+    }
+}
